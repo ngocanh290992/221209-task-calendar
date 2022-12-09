@@ -1,0 +1,109 @@
+ /* #5684AE; Light Blue
+ #0F4C81; Dark Blue
+ #FFE4C8; Light Orange
+ #F9BE81; Dark Orange
+ #E4F6ED; Calendar Tile Color */
+
+/* ========== TOP ============= */
+.month__year {
+    color:  #0F4C81;
+}
+
+.month__year i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.month__year span{
+    font-weight: 700;
+}
+
+.days>div{
+    width: 2rem;
+    height: 2rem;
+    padding-top: 4px;
+    transition: all .3s;
+}
+
+.calendar__left .days div{
+    border-radius: 1rem;
+}
+
+.days div:hover{
+    border: 1px solid #5684AE;
+    cursor: pointer;
+}
+
+
+.prev-day,
+.next-day{
+   color: rgba(100, 116, 139, 0.7) ;
+}
+
+.today{
+    background: #5684AE ;
+    color: white;
+}
+
+.today div{
+    padding: 0;
+    border: none;
+}
+
+
+/* ========== BOTTOM ============= */
+.calendar__left-title>h3{
+    color: #0F4C81;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.view__all{
+    background-color: #5684AE;
+    color: white;
+    transition: all .3s;
+}
+
+.view__all:hover{
+    background-color: #F9BE81 ;
+    color: #0F4C81; 
+}
+
+.event__decor{
+    top:0;
+    left: -96%;
+}
+
+.event__view img{
+    width: 30px;
+    height: 30px;
+}
+
+.event__view a{
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.event__camera{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event__title{
+    color: #0F4C81;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+.event__subtitle{
+    color: #5684AE;
+    font-size: .9rem;
+}
